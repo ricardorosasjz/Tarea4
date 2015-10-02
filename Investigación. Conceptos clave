@@ -1,0 +1,74 @@
+Ricardo Rosas Juarez
+ID: 150371
+Paradigmas de Programación
+Investigación de conceptos clave.
+
+1. Variables estáticas:
+	Una variable estática (en términos generales) es aquella que se mantiene almacenada en la misma locación durante toda la ejecución 
+	de un programa.
+
+2. Ciclo de vida de las variables:
+    El ciclo de vida está definido como el periodo durante la ejecución de un programa en el que una variable se encuentra en un 
+    estado válido para ser utilizada.
+
+3. Memoria dinámica (lenguaje C):
+    Es memoria que se reserva en tiempo de ejecución de un programa. En C, el programador es encargado de liberar esta memoria cuando 
+    no la utilice más. El uso de esta memoria es necesario cuando no conocemos el número de datos/elementos a tratar.
+    La biblioteca estándar de C proporciona las funciones “malloc, calloc, realloc y free” para el manejo de memoria dinámica. Estas 
+    funciones están definidas en el archivo de cabecera “stdlib.h.”
+
+4. Clase:
+    En el contexto de programación orientada a objetos, una clase es un “molde” por medio del cual se crean objetos individuales con 
+    atributos y métodos característicos llamados objetos
+
+5. Objeto:
+    Un objeto es una unidad que se encuentra formada por un estado y un comportamiento, que a su vez consta de datos almacenados y 
+    tareas realizables durante el tiempo de ejecución de un programa. Un objeto puede ser creado instanciando una clase, como ocurre
+    en la programación orientada a objetos, o mediante escritura directa de código y la replicación de otros objetos, como ocurre en 
+    la programación basada en prototipos.
+
+
+6. Instanciación:
+    Es la acción de crear una copia de una versión ejecutable del programa que ha sido escrito en la memoria de la computadora, 
+    llamada instancia.
+    Una instancia a su vez es creada típicamente por el click del usuario en un icono de la interfaz gráfica involucrada.
+
+7. Herencia:
+    En el enfoque de programación orientada a objetos la relación entre una clase general y otra más específica (una derivada de la 
+    otra) extendiendo por lo tanto su funcionalidad. Por medio de la herencia se evita el rediseño, la modificación y verificación de 
+    la parte implementada.
+
+8. Sobrecarga: 
+    Es la capacidad de un lenguaje de programación para nombrar con el mismo identificador diferentes variables y operaciones.
+    En programación orientada a objetos la sobrecarga se refiere a la posibilidad de tener dos o más funciones con el mismo nombre 
+    pero con funcionalidades diferentes.
+
+9. Ensombrecimiento (shadowing):
+    El ensombrecimiento de una variable ocurre cuando una de estas se encuentra declarada dentro de un bloque de decisión, método o 
+    subclase y al mismo tiempo también está declarada fuera de los mismos.
+    Se nombra así porque el identificador interior “tapa” al exterior, o viceversa dependiendo del lenguaje.
+
+10. Ciclo de vida de las variables de clase:
+    Estas variables se crean cuando se usa la clase por primera vez. Se inicializan por defecto si no se hace explícitamente y suelen 
+    existir para el resto del programa.
+
+11. Ciclo de vida de las variables de método:
+    Son creadas en la sentencia en la que están definidas. No se inicializan por defecto ya que contienen datos imprevisibles y se 
+    destruyen al salir del método en cuestión.
+
+12. Ciclo de vida de las variables estáticas:
+    Dichas variables son creadas cuando la clase se usa por primera vez. Se inicializan por defecto si no se hace de modo explícito y
+    suelen existir para el resto del programa (salvo que no esté cargado).
+    
+* Referencias:
+    + Instanciación: poostephania.blogspot.mx
+    + Computer Glossary (general): whatis.techtarget.com
+    + ¿Qué es un objeto?: docs.oracle.com
+    + ¿Qué es una clase? docs.oracle.com
+    + Manejo de memoria en C: es.wikibooks.org
+    + Ciclo de vida de las variables: msdn.microsoft.com
+    + Variables estáticas: en.wikipedia.org
+    + Ciclo de vida de variables de clase, de método y estáticas (entre otros conceptos): mit.ocw.universia.net
+    + Ensombrecimiento: programmers.stackexchange.com
+    + Herencia: es.ccm.net
+    + Sobrecarga: es.wikipedia.org
